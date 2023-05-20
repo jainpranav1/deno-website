@@ -30,7 +30,7 @@ export default function Header({ active }: Props) {
             <li>
               <a
                 href={menu.href}
-                class={"whitespace-nowrap text-gray-500 hover:text-gray-700 py-1 border-gray-500" +
+                class={"whitespace-nowrap text-gray-400 hover:text-gray-600 py-1 border-gray-400" +
                   (menu.href === active ? " font-bold border-b-2" : "")}
               >
                 {menu.name}
