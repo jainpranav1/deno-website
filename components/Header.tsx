@@ -19,13 +19,13 @@ export default function Header({ active }: Props) {
   return (
     <div class="bg-black w-full flex flex-row justify-center py-4">
       <div class="max-w-screen-lg flex flex-row justify-center gap-28">
-        <div class="flex flex-row items-center flex-l">
+        <div class="flex flex-row items-center">
           <img src="/logo.png" width="30" height="30" />
           <div class="text-white text-lg ml-1 font-bold whitespace-nowrap">
             Pranav's Site
           </div>
         </div>
-        <ul class="flex flex-row gap-4 items-center	">
+        <ul class="flex flex-row gap-4 items-center">
           {menus.map((menu) => (
             <li>
               <a
